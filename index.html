@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع السابع</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع السابع</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1.  ما هو الجهاز الذي يتكون من مجموعة من العظام المترابطة في جسم الإنسان؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c">  الجهاز العصبي .</label>
+                <label><input type="radio" name="q1" value="b">   الجهاز التنفسي .</label>
+               	<label><input type="radio" name="q1" value="a">   الجهاز الهيكلي .</label>			
+							
+            </div>
+        </div>
+
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. كم عدد العظام في جسم الإنسان البالغ؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> 106 .</label>
+                <label><input type="radio" name="q2" value="b"> 206  .</label>
+                <label><input type="radio" name="q2" value="c"> 420 .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. أي من التالي لا يعد جزءًا من الهيكل المحوري؟</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> الجمجمة .</label>
+                <label><input type="radio" name="q3" value="b">  العمود الفقري .</label>
+                <label><input type="radio" name="q3" value="c">  عظام اليد.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. إذا تم استبدال الأقراص الغضروفية بين الفقرات بعظام صلبة، فما التأثير الذي سيحدث؟</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a">  سيصبح العمود الفقري أقوى .</label>
+                <label><input type="radio" name="q4" value="b">  ستقل حركة وانحناء العمود الفقري .</label>
+                <label><input type="radio" name="q4" value="c">   ستتحسن قدرة العمود الفقري على امتصاص الصدمات .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. إذا فقد الإنسان جزءًا من العمود الفقري، فما التأثير الأكثر وضوحًا على جسمه؟</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> فقدان القدرة على التنفس .</label>
+                <label><input type="radio" name="q5" value="b"> صعوبة الحركة والانحناء .</label>
+                <label><input type="radio" name="q5" value="c"> انخفاض مستوى الكالسيوم في الجسم .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6.  لماذا يحتاج الأطفال إلى كمية أكبر من الكالسيوم مقارنة بالبالغين؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b"> لأن أجسامهم لا تستطيع إنتاج الكالسيوم .</label>
+				<label><input type="radio" name="q6" value="a"> لأنهم يفقدون الكالسيوم بشكل أسرع من البالغين  .</label>
+                <label><input type="radio" name="q6" value="c">   لأن عظامهم لا تزال تنمو وتحتاج إلى دعم قوي .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. تحب بيان اللعب في الخارج، لكنها لا تتعرض كثيرًا للشمس. لاحظ الطبيب أن عظامها أصبحت ضعيفة، ونصحها بتناول الحليب والتعرض لأشعة الشمس. لماذا نصحها الطبيب بذلك؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">  لأن الشمس تساعد في تكوين فيتامين (د) الذي يسهل امتصاص الكالسيوم .</label>
+				<label><input type="radio" name="q7" value="a">  لأن الشمس تزيد من قوة العضلات .</label>
+                <label><input type="radio" name="q7" value="c">  لأن الشمس تمنع تسوس الأسنان .</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. سارة تحب القراءة، لكن حقيبتها المدرسية كانت ثقيلة جدًا لأنها تحمل الكثير من الكتب. مع مرور الوقت، بدأت تشعر بألم في ظهرها، فنصحها الطبيب بتخفيف وزن الحقيبة. ما الجزء الأكثر تأثرًا في جسم سارة بسبب حمل الحقيبة الثقيلة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> الجمجمة .</label>
+				<label><input type="radio" name="q8" value="a"> العمود الفقري .</label>
+                <label><input type="radio" name="q8" value="c"> القفص الصدري .</label>
+            </div>
+        </div>
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'a',
+                q2: 'b',
+                q3: 'c',
+                q4: 'b',
+                q5: 'b',
+				q6: 'c',
+				q7: 'b',
+				q8: 'a',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 8 أسئلة`;
+        }
+    </script>
+</body>
+</html>
